@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taqueria Tsunami</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <style>
+      body {
+        background-color: limegreen;
+      }
+      marquee{
+      font-size: 200px;
+      font-weight: 800;
+      color: limegreen;
+      background-color: #008cff;
+      font-family: sans-serif;
+      height: 200px;
+      }
+      h1{
+        text-align: center;
+        font-size: 100px;
+        color: #008cff;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+      img {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+            }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+          }
+
+      li {
+        display: inline;
+          }
+    h3, h4{
+        color: #008cff;
+    }
+    h3, h4, p{
+        text-align: center;
+    }
+    .container{
+        height: 100px;
+        position: relative;
+    }
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%
+    }
+    .menu {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #008cff;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <marquee>MENU</marquee>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li><a href="/">Contact</a></li>
+      <li><a href="/">About</a></li>
+    </ul>
+    <h1>Menu and Libations</h1>
+    <div class="container">
+        <div class="vertical-center">
+            <button class="menu"><a href="./menu.pdf">Click to view the menu! </a></button>
+        </div>
+    </div>
+    <br>
+    <h3>MARGARITAS</h3>
+        <h4>Agave</h4>
+    <p> El Jimador, Agave Nectar, Fresh Lime Juice</p>
+    <br>
+        <h4>Tsunami Wave</h4>
+        <p>Casamigos Blanco, Patrón Citrónge Orange, Agave Nectar, Fresh Lime Juice.</p>
+    <br>
+        <h4>Jalapeño Cilantro</h4>
+       <p>Tanteo Jalapeño Infused Tequila, Cilantro, Agave Nectar, Fresh Jalapeño, Fresh Lime Juice, Chile Lime Salt Rim</p>
+    <br>
+        <h4>Grapefruit Rita</h4>
+        <p>Herradura Silver, St Germain, Gifford Pamplemousse, Fresh Lime Juice, Fresh Grapefruit Juice, Agave Nectar</p>
+    <br>
+    <br>
+        <h3>SANGRIA</h3>
+    <br>
+        <p>Red Sangria</p>
+        <p>White Sangria</p>
+        <p>Rose Sangria</p>
+        <p>Asian Pear Sangria</p>
+        <p>Watermelon Rose</p>
+        <p>Sake Sangria</p>
+        <br>
+        <br>
+        <form action="action_page.php">
+            <div class="container">
+              <h2>Subscribe to our Newsletter</h2>
+              <p></p>
+            </div>
+          
+            <div class="container" style="background-color:white">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+            </div>
+          
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taqueria Tsunami</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <style>
+      body {
+        background-color: limegreen;
+      }
+      marquee{
+      font-size: 200px;
+      font-weight: 800;
+      color: limegreen;
+      background-color: #008cff;
+      font-family: sans-serif;
+      height: 200px;
+      }
+      h1{
+        text-align: center;
+        font-size: 100px;
+        color: #008cff;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+      img {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+            }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+          }
+
+      li {
+        display: inline;
+          }
+    </style>
+  </head>
+  <body>
+    <marquee>Welcome to Taqueria Tsunami</marquee>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li><a href="/">Contact</a></li>
+      <li><a href="/">About</a></li>
+    </ul>
+    <h1>Featured Items</h1>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="short-rib-q.png" alt="Short Rib Quesadilla" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Short Rib Quesadilla</h3>
+      <p>Great mix of meat and cheese!!</p>
+      <p>SO GOOD!!!</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="asian-nachos.png" alt="Asian Nachos" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Asian Nachos</h3>
+      <p>A great play on regular nachos!!!</p>
+      <p>Even Better!!!</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="alohataco.png" alt="Aloha Taco" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h3>Aloha Taco</h3>
+      <p>Hawaiian Themed Heaven!!!</p>
+      <p>Tacos for life!!!</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<form action="action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p></p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+
+  </body>
+</html>
